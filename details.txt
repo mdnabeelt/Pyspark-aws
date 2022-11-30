@@ -1,0 +1,7 @@
+create a dataset using faker library in python by understanding the schema required
+create two s3 buckets namely landing zone and staging zone.
+create a config file for spark describing the spark configuration and another one for pathscalled app config.
+create an emr cluster using spark config file with a notebook attached to it.
+write a spark job in such a way that it performs the transformations mentioned.
+the spark job should take the data set in the landing zone and after perfoming transformation sends the dataset to the staging zone.
+all the iputs based on path
